@@ -1,15 +1,16 @@
-//Program to check a number is even or odd with only operators.
+//Program to print average of three numbers.
 
 #include<stdio.h>
 
 int main(){
 
-int a;
-printf("Enter a Number to Check \n");
-scanf("%d",&a);
+int a,b,c,d=3,avg;
+printf("enter the value for three numbers \n");
+scanf("%d %d %d", &a , &b , &c);
 
-printf("%d",  a%2==0);
+avg = a+b+c;
 
+printf("The Average of three numbers is  %d", avg/d);
 
 return 0;
 }
