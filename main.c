@@ -1,4 +1,4 @@
-//Program to check a number is divisible by 2 or not with only operators.
+//Program to check a number is even or odd with only operators.
 
 #include<stdio.h>
 
