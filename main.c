@@ -1,24 +1,16 @@
+//Program to check a number is divisible by 2 or not with only operators.
+
 #include<stdio.h>
 
-void swap(int , int);
-void main()
-{
+int main(){
 
-int a =5 , b=6;
-printf("%d %d",  a,b);
-swap(a,b);
+int a;
+printf("Enter a Number to Check \n");
+scanf("%d",&a);
 
-printf("After swapping\n");
-printf("%d %d", a, b);
+printf("%d",  a%2==0);
 
+
+return 0;
 }
 
-void swap(int x, int y){
-
-int t;
-t=x;
-x=y;
-y=t;
-printf("After swapping");
-printf("%d %d", x , y);
-}
