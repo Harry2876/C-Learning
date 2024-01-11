@@ -1,17 +1,25 @@
-//Program to print average of three numbers.
+#include <stdio.h>
 
-#include<stdio.h>
+int main() {
 
-int main(){
+int n , i , count=0;
 
-int a,b,c,d=3,avg;
-printf("enter the value for three numbers \n");
-scanf("%d %d %d", &a , &b , &c);
+printf("Enter A Number \n");
+scanf("%d", &n);
 
-avg = a+b+c;
-
-printf("The Average of three numbers is  %d", avg/d);
-
-return 0;
+for ( i = 1; i <=n; i++)
+{
+    if (n%i==0)
+    {
+        count++;
+    }
+    
 }
+if (count ==2)
+printf("Prime Number");
+else
+printf("Not Prime Number");
 
+
+  return 0;
+}
